@@ -1,0 +1,42 @@
+#root {
+  margin: auto;
+  width: 70%;
+}
+
+#title {
+  text-align: center;
+}
+
+#description {
+  text-align: center;
+}
+
+#tooltip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  text-align: left;
+  width: auto;
+  max-width: 200px;
+  height: auto;
+  padding: 2px;
+  font: 0.9em;
+  background-color: #6a6a6a;
+  box-shadow: 2px 2px 5px;
+  pointer-events: none;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 2px #444444;
+}
+
+.toolTipContainer {
+  position: absolute;
+  background: #fff;
+  pointer-events: none;
+}
+
+.bar:hover {
+  fill: #fff;
+}
